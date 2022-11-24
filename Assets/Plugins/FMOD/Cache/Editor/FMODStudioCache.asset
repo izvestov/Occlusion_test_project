@@ -91,6 +91,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 8539
+--- !u!114 &-4198365218003047280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Cyclotronic
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Cyclotronic
+  guid: d7d8f3df0ce29e42a9dabbd82383fe9f
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 32219
+--- !u!114 &-4152917294367240755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Cyclotronic 2
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Cyclotronic 2
+  guid: a0aac5d263773f44bc32ef500d47ef48
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60342
 --- !u!114 &-1974437935321727117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +160,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 8933
+--- !u!114 &-862192714584658070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Ventilation
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Ventilation
+  guid: b40100c8cfe7904f90176386fd362cf1
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 235690
 --- !u!114 &-680292851571148440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,12 +229,18 @@ MonoBehaviour:
   - {fileID: -1974437935321727117}
   - {fileID: -9033876229114013682}
   - {fileID: 8641534495408249778}
+  - {fileID: 3536027181372146995}
+  - {fileID: -862192714584658070}
+  - {fileID: 2317794401728263226}
+  - {fileID: 5861713240364541111}
+  - {fileID: -4198365218003047280}
+  - {fileID: -4152917294367240755}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2203734722850694143}
   StringsBanks:
   - {fileID: 2917633401301298618}
-  stringsBankWriteTime: 638049163607632518
+  stringsBankWriteTime: 638049297200016870
   cacheVersion: 8
 --- !u!114 &181055583952229260
 MonoBehaviour:
@@ -226,11 +301,34 @@ MonoBehaviour:
   Path: fmod_proj/Occlusion_steam/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638049163607612631
+  lastModified: 638049297199994432
   FileSizes:
   - Name: Desktop
-    Value: 3843808
+    Value: 8832352
   Exists: 1
+--- !u!114 &2317794401728263226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Computer_beeps
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Computer_beeps
+  guid: 7cdedbfaea96fb48aefdaf5beb834d2e
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 10
+  Length: 4000
 --- !u!114 &2917633401301298618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,11 +344,34 @@ MonoBehaviour:
   Path: fmod_proj/Occlusion_steam/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638049163607632518
+  lastModified: 638049297200016870
   FileSizes:
   - Name: Desktop
-    Value: 1274
+    Value: 1534
   Exists: 1
+--- !u!114 &3536027181372146995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Reactor
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Reactor
+  guid: 1c9ff4d9e368aa4f9d792d3acc2d3dbd
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 23722
 --- !u!114 &4133288448700990188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,8 +393,31 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 50
+  MaxDistance: 25
   Length: 13113
+--- !u!114 &5861713240364541111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Sci-Fi
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Sci-Fi
+  guid: 45ddf7a689168846a9631510b139939e
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40052
 --- !u!114 &8477547737484312987
 MonoBehaviour:
   m_ObjectHideFlags: 0
