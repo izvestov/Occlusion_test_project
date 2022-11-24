@@ -610,7 +610,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: INVECTOR_BASIC;INVECTOR_MELEE;INVECTOR_SHOOTER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
