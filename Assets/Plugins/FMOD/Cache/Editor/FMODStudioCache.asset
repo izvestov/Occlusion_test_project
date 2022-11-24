@@ -1,5 +1,141 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9033876229114013682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Lamps/Lamp_Buzz
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Lamps/Lamp_Buzz
+  guid: edc2bd0a6f6744479710a76c06bb9f29
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8679
+--- !u!114 &-8037529764670358748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiance/Amb_Wind_Outside
+  m_EditorClassIdentifier: 
+  Path: event:/Ambiance/Amb_Wind_Outside
+  guid: 5748fab9b05bd74ebda50d4be6ad19c4
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 40046
+--- !u!114 &-6908844154845125966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiance/Amb_Room_Inside
+  m_EditorClassIdentifier: 
+  Path: event:/Ambiance/Amb_Room_Inside
+  guid: da60313524df9441a41909266889696e
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 238312
+--- !u!114 &-5851574851987654557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Lamp_Buzz 3
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Lamp_Buzz 3
+  guid: 3acd7bc4d0cf5346ae5d932361065386
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8539
+--- !u!114 &-1974437935321727117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Lamps/Lamp_Buzz 2
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Lamps/Lamp_Buzz 2
+  guid: 407fa7862ea20f409801edb5d96c5ef6
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8933
+--- !u!114 &-680292851571148440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Lamp_Buzz 4
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Lamp_Buzz 4
+  guid: 39ad4fe24b245941989e7dcb22dafe05
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8820
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,14 +152,65 @@ MonoBehaviour:
   - {fileID: 2917633401301298618}
   - {fileID: 2203734722850694143}
   EditorEvents:
-  - {fileID: 8760904998157591884}
+  - {fileID: 4133288448700990188}
+  - {fileID: -6908844154845125966}
+  - {fileID: -8037529764670358748}
+  - {fileID: 9033512405436998391}
+  - {fileID: 8477547737484312987}
+  - {fileID: -1974437935321727117}
+  - {fileID: -9033876229114013682}
+  - {fileID: 8641534495408249778}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2203734722850694143}
   StringsBanks:
   - {fileID: 2917633401301298618}
-  stringsBankWriteTime: 638049066176207854
+  stringsBankWriteTime: 638049163607632518
   cacheVersion: 8
+--- !u!114 &181055583952229260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Lamp_Buzz
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Lamp_Buzz
+  guid: edc2bd0a6f6744479710a76c06bb9f29
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8679
+--- !u!114 &1205960314576757160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Lamp_Buzz 2
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Lamp_Buzz 2
+  guid: 407fa7862ea20f409801edb5d96c5ef6
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8933
 --- !u!114 &2203734722850694143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,10 +226,10 @@ MonoBehaviour:
   Path: fmod_proj/Occlusion_steam/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638049066176179798
+  lastModified: 638049163607612631
   FileSizes:
   - Name: Desktop
-    Value: 2882496
+    Value: 3843808
   Exists: 1
 --- !u!114 &2917633401301298618
 MonoBehaviour:
@@ -59,11 +246,80 @@ MonoBehaviour:
   Path: fmod_proj/Occlusion_steam/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638049066176207854
+  lastModified: 638049163607632518
   FileSizes:
   - Name: Desktop
-    Value: 752
+    Value: 1274
   Exists: 1
+--- !u!114 &4133288448700990188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Env_Drone
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Env_Drone
+  guid: 78f96b3897d64d49bcac57b551e16687
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 13113
+--- !u!114 &8477547737484312987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Lamps/Lamp_Buzz 3
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Lamps/Lamp_Buzz 3
+  guid: 3acd7bc4d0cf5346ae5d932361065386
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8539
+--- !u!114 &8641534495408249778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Generator
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Generator
+  guid: 0f559ec863f8e441ab974dc7f0e1a376
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28571
 --- !u!114 &8760904998157591884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,8 +334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Amb_Room_Inside
   guid: da60313524df9441a41909266889696e
-  Banks:
-  - {fileID: 2203734722850694143}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -87,3 +342,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 238312
+--- !u!114 &9033512405436998391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Lamps/Lamp_Buzz 4
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Lamps/Lamp_Buzz 4
+  guid: 39ad4fe24b245941989e7dcb22dafe05
+  Banks:
+  - {fileID: 2203734722850694143}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8820
