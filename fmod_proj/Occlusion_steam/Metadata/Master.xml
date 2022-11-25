@@ -16,7 +16,10 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{81453151-576f-4502-ab59-a0ed798a17cd}">
 		<relationship name="effects">
+			<destination>{87996692-70ef-46a2-883a-b7b13da01d3e}</destination>
 			<destination>{6b54d1f7-b349-4df9-9521-ddea410019ae}</destination>
+			<destination>{84ce127b-4a1d-4941-b53e-c94ef8661410}</destination>
+			<destination>{d213fa46-291f-47bd-84a5-a585041c2420}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cfb06a0d-83ef-4f14-9bd7-aaaee10f2f29}">
@@ -24,5 +27,35 @@
 			<value>2</value>
 		</property>
 	</object>
+	<object class="CompressorEffect" id="{87996692-70ef-46a2-883a-b7b13da01d3e}">
+		<property name="threshold">
+			<value>-24</value>
+		</property>
+		<property name="ratio">
+			<value>1.14999998</value>
+		</property>
+		<property name="attackTime">
+			<value>60</value>
+		</property>
+		<property name="releaseTime">
+			<value>760</value>
+		</property>
+		<property name="gain">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{6b54d1f7-b349-4df9-9521-ddea410019ae}" />
+	<object class="LimiterEffect" id="{84ce127b-4a1d-4941-b53e-c94ef8661410}">
+		<property name="ceiling">
+			<value>-1</value>
+		</property>
+		<property name="release">
+			<value>50</value>
+		</property>
+	</object>
+	<object class="LoudnessMeter" id="{d213fa46-291f-47bd-84a5-a585041c2420}">
+		<property name="loudnessTarget">
+			<value>-18</value>
+		</property>
+	</object>
 </objects>
