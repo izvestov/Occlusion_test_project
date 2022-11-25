@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{faf1241f-1459-461e-881c-6a6ccf7adcd2}">
+		<property name="assetPath">
+			<value>Character/Footsteps/Dirt/SNEAK_DIRT_RUN_4_16_16_A.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.34133333333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ed2f155b-e1fd-47c3-b21a-43a07cf4a495}</destination>
+		</relationship>
+	</object>
+</objects>

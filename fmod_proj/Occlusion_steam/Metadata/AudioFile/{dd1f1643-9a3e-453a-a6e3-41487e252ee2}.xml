@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{dd1f1643-9a3e-453a-a6e3-41487e252ee2}">
+		<property name="assetPath">
+			<value>Character/Footsteps/Grate/footstep_grate-013.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4183900226757369</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ed2f155b-e1fd-47c3-b21a-43a07cf4a495}</destination>
+		</relationship>
+	</object>
+</objects>

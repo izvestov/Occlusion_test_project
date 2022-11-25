@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{6a5fdaf2-c93f-4a6e-885d-82c7bf701d8e}">
+		<property name="assetPath">
+			<value>Character/Footsteps/Lino/SNEAK_LINO_RUN_4_4_4_B.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.33066666666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ed2f155b-e1fd-47c3-b21a-43a07cf4a495}</destination>
+		</relationship>
+	</object>
+</objects>
