@@ -22074,7 +22074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a62d5b8c7e6e7d498ff15dbe4c70c16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  footstepsevent: event:/Character/Footsteps
+  footstepsevent: event:/Character/Footsteps_charater
   layer_varible:
     serializedVersion: 2
     m_Bits: 131072
