@@ -420,7 +420,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400254}
-  - component: {fileID: 8693384420688871319}
   m_Layer: 0
   m_Name: window_big (2)
   m_TagString: Untagged
@@ -445,21 +444,6 @@ Transform:
   m_Father: {fileID: 460554}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &8693384420688871319
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 08bf73ad12cb44944875b02ce7f9d694, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &118056
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,7 +539,6 @@ GameObject:
   - component: {fileID: 497272}
   - component: {fileID: 6570690}
   - component: {fileID: 20530126}
-  - component: {fileID: 2759389888479903771}
   m_Layer: 0
   m_Name: floor_2 (3)
   m_TagString: Untagged
@@ -616,21 +599,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2373080}
   m_Enabled: 1
---- !u!114 &2759389888479903771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 118216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 9e0a6d5705eaec64ab63e6ac7132e0a7, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &120802
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,7 +866,6 @@ GameObject:
   - component: {fileID: 465566}
   - component: {fileID: 6583416}
   - component: {fileID: 20551086}
-  - component: {fileID: 5623199298383787206}
   m_Layer: 0
   m_Name: floor_2_no_lattice
   m_TagString: Untagged
@@ -959,21 +926,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2359154}
   m_Enabled: 1
---- !u!114 &5623199298383787206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 9e0a6d5705eaec64ab63e6ac7132e0a7, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &125436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,7 +1103,6 @@ GameObject:
   - component: {fileID: 422090}
   - component: {fileID: 6538828}
   - component: {fileID: 20540734}
-  - component: {fileID: 4339392653389537909}
   m_Layer: 0
   m_Name: floor_2
   m_TagString: Untagged
@@ -1212,21 +1163,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2342526}
   m_Enabled: 1
---- !u!114 &4339392653389537909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 9e0a6d5705eaec64ab63e6ac7132e0a7, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &131032
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,7 +1260,6 @@ GameObject:
   - component: {fileID: 444178}
   - component: {fileID: 6598168}
   - component: {fileID: 20547580}
-  - component: {fileID: 7120660144618002433}
   m_Layer: 0
   m_Name: floor_2 (2)
   m_TagString: Untagged
@@ -1385,21 +1320,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2336790}
   m_Enabled: 1
---- !u!114 &7120660144618002433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 9e0a6d5705eaec64ab63e6ac7132e0a7, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &136902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,7 +1842,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 443556}
-  - component: {fileID: 6026356523174638024}
   m_Layer: 0
   m_Name: window_big (1)
   m_TagString: Untagged
@@ -1947,21 +1866,6 @@ Transform:
   m_Father: {fileID: 460554}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!114 &6026356523174638024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 08bf73ad12cb44944875b02ce7f9d694, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &158740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,7 +1964,6 @@ GameObject:
   - component: {fileID: 3387954}
   - component: {fileID: 2355156}
   - component: {fileID: 6537940}
-  - component: {fileID: 5563653149633526990}
   m_Layer: 0
   m_Name: floor_5
   m_TagString: Untagged
@@ -2148,21 +2051,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.000001, y: 0.1817455, z: 4}
   m_Center: {x: -0.00000047683716, y: 0.0908726, z: 0.00000047683716}
---- !u!114 &5563653149633526990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 9e0a6d5705eaec64ab63e6ac7132e0a7, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &160636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2172,7 +2060,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 449216}
-  - component: {fileID: 4230286790833334307}
   m_Layer: 0
   m_Name: window_big_corner
   m_TagString: Untagged
@@ -2197,21 +2084,6 @@ Transform:
   m_Father: {fileID: 460554}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4230286790833334307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 160636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 0a2fe8fec5703dd428831a5ef564c1be, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &161694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,7 +2095,6 @@ GameObject:
   - component: {fileID: 401436}
   - component: {fileID: 6574196}
   - component: {fileID: 20540978}
-  - component: {fileID: 7354232560809102236}
   m_Layer: 0
   m_Name: floor_2_no_lattice (1)
   m_TagString: Untagged
@@ -2284,21 +2155,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2352916}
   m_Enabled: 1
---- !u!114 &7354232560809102236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 9e0a6d5705eaec64ab63e6ac7132e0a7, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &163760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2310,7 +2166,6 @@ GameObject:
   - component: {fileID: 497466}
   - component: {fileID: 6550116}
   - component: {fileID: 20584304}
-  - component: {fileID: 3767233521528944295}
   m_Layer: 0
   m_Name: floor_2_no_lattice (2)
   m_TagString: Untagged
@@ -2371,21 +2226,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2328362}
   m_Enabled: 1
---- !u!114 &3767233521528944295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 9e0a6d5705eaec64ab63e6ac7132e0a7, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &165418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,7 +2355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: ed65b244617a3154ba34ebdb722855a9, type: 2}
+  material: {fileID: 11400000, guid: 9e0a6d5705eaec64ab63e6ac7132e0a7, type: 2}
   exportAllChildren: 1
   terrainSimplificationLevel: 0
 --- !u!1 &166402
@@ -2695,7 +2535,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 420098}
-  - component: {fileID: 965360733713736134}
   m_Layer: 0
   m_Name: window_big_corner (1)
   m_TagString: Untagged
@@ -2720,21 +2559,6 @@ Transform:
   m_Father: {fileID: 460554}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!114 &965360733713736134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 0a2fe8fec5703dd428831a5ef564c1be, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &170446
 GameObject:
   m_ObjectHideFlags: 0
@@ -2744,7 +2568,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 491928}
-  - component: {fileID: 4115622923474560399}
   m_Layer: 0
   m_Name: window_big
   m_TagString: Untagged
@@ -2769,21 +2592,6 @@ Transform:
   m_Father: {fileID: 460554}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -179.9997, z: 0}
---- !u!114 &4115622923474560399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 0a2fe8fec5703dd428831a5ef564c1be, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &173756
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,7 +3522,6 @@ GameObject:
   - component: {fileID: 476088}
   - component: {fileID: 6504258}
   - component: {fileID: 20597068}
-  - component: {fileID: 136213709590673838}
   m_Layer: 0
   m_Name: floor_2_no_lattice (3)
   m_TagString: Untagged
@@ -3775,21 +3582,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2363692}
   m_Enabled: 1
---- !u!114 &136213709590673838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: 9e0a6d5705eaec64ab63e6ac7132e0a7, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0
 --- !u!1 &199962
 GameObject:
   m_ObjectHideFlags: 0

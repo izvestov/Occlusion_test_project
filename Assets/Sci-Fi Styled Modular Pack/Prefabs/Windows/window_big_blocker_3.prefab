@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3385828}
   - component: {fileID: 2353176}
   - component: {fileID: 6571476}
-  - component: {fileID: 7732707419309382409}
   m_Layer: 0
   m_Name: window_big_blocker_3
   m_TagString: Untagged
@@ -98,18 +97,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3119505, y: 3.52939, z: 1.4929188}
   m_Center: {x: 0.0018548965, y: 2.0145345, z: -0.65528053}
---- !u!114 &7732707419309382409
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 11400000, guid: ed65b244617a3154ba34ebdb722855a9, type: 2}
-  exportAllChildren: 0
-  terrainSimplificationLevel: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3397806}
   - component: {fileID: 2399284}
   - component: {fileID: 6543582}
-  - component: {fileID: 4481394346459170886}
+  - component: {fileID: 7759136987102829700}
   m_Layer: 0
   m_Name: glass_panel_1
   m_TagString: Untagged
@@ -99,7 +99,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.000001, y: 4.000002, z: 0.32954714}
   m_Center: {x: 0.00000035762787, y: 2, z: 0.0000025480986}
---- !u!114 &4481394346459170886
+--- !u!114 &7759136987102829700
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
