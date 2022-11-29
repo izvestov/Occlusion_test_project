@@ -49292,7 +49292,7 @@ MonoBehaviour:
   directivityValue: 1
   occlusion: 1
   occlusionInput: 0
-  occlusionType: 0
+  occlusionType: 1
   occlusionRadius: 1
   occlusionSamples: 16
   occlusionValue: 1
@@ -67987,7 +67987,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-147830
+  m_Name: pb_Mesh25930
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -75671,7 +75671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 193520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 442520, guid: 979fc5f838d46744aa26f426a3934492, type: 3}
       propertyPath: m_RootOrder
