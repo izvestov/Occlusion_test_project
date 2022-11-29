@@ -141,6 +141,7 @@
 	<object class="MixerBusEffectChain" id="{8488edae-c0f2-459f-b714-cd3399ec9f3e}">
 		<relationship name="effects">
 			<destination>{a22595ef-3b5d-4c0d-88c1-2f44e370f1bb}</destination>
+			<destination>{209e2036-852e-4be3-adf2-cdbcb00857ad}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7dd17f94-ef55-43cf-be84-f652cb5b025f}" />
@@ -151,6 +152,29 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a22595ef-3b5d-4c0d-88c1-2f44e370f1bb}" />
+	<object class="MultibandEqEffect" id="{209e2036-852e-4be3-adf2-cdbcb00857ad}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>3137.55566</value>
+		</property>
+		<property name="frequencyB">
+			<value>94.6008911</value>
+		</property>
+		<property name="qualityA">
+			<value>0.419999987</value>
+		</property>
+		<property name="gainA">
+			<value>-11</value>
+		</property>
+		<property name="gainB">
+			<value>2.5</value>
+		</property>
+	</object>
 	<object class="Plugin" id="{a3c35e66-6088-49ab-9711-ab525a6b9d29}">
 		<property name="identifier">
 			<value>Steam Audio Spatializer</value>
@@ -212,7 +236,7 @@
 			<value>ApplyDA</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -323,7 +347,7 @@
 			<value>DAType</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -348,7 +372,7 @@
 			<value>DAMaxDist</value>
 		</property>
 		<property name="value">
-			<value>20</value>
+			<value>50</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,10000.000000)}</value>
@@ -502,7 +526,7 @@
 			<value>ReflMixLevel</value>
 		</property>
 		<property name="value">
-			<value>0.699999988</value>
+			<value>1</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,10.000000)}</value>

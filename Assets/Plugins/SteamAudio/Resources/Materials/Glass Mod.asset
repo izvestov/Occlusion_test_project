@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb82a87a4954a947923856a12b49b38, type: 3}
   m_Name: Glass Mod
   m_EditorClassIdentifier: 
-  lowFreqAbsorption: 0.06
-  midFreqAbsorption: 0.03
-  highFreqAbsorption: 0.02
+  lowFreqAbsorption: 0.138
+  midFreqAbsorption: 0.101
+  highFreqAbsorption: 0.08
   scattering: 0.05
-  lowFreqTransmission: 0.06
-  midFreqTransmission: 0.044
-  highFreqTransmission: 0.011
+  lowFreqTransmission: 0.648
+  midFreqTransmission: 0.428
+  highFreqTransmission: 0.205
