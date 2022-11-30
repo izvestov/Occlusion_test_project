@@ -16,6 +16,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{81453151-576f-4502-ab59-a0ed798a17cd}">
 		<relationship name="effects">
+			<destination>{c0148a41-bbbd-4b19-bdb6-b9a351095b44}</destination>
 			<destination>{87996692-70ef-46a2-883a-b7b13da01d3e}</destination>
 			<destination>{6b54d1f7-b349-4df9-9521-ddea410019ae}</destination>
 			<destination>{84ce127b-4a1d-4941-b53e-c94ef8661410}</destination>
@@ -26,6 +27,14 @@
 		<property name="overridingOutputFormat">
 			<value>2</value>
 		</property>
+	</object>
+	<object class="PluginEffect" id="{c0148a41-bbbd-4b19-bdb6-b9a351095b44}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<relationship name="plugin">
+			<destination>{569d6c81-9185-4776-8b5f-912fa8152d9e}</destination>
+		</relationship>
 	</object>
 	<object class="CompressorEffect" id="{87996692-70ef-46a2-883a-b7b13da01d3e}">
 		<property name="threshold">
@@ -56,6 +65,22 @@
 	<object class="LoudnessMeter" id="{d213fa46-291f-47bd-84a5-a585041c2420}">
 		<property name="loudnessTarget">
 			<value>-18</value>
+		</property>
+	</object>
+	<object class="Plugin" id="{569d6c81-9185-4776-8b5f-912fa8152d9e}">
+		<property name="identifier">
+			<value>Steam Audio Mixer Return</value>
+		</property>
+		<relationship name="pluginParameters">
+			<destination>{e82c2ef8-bebf-41bc-93fd-26429ba52571}</destination>
+		</relationship>
+	</object>
+	<object class="BoolPluginParameter" id="{e82c2ef8-bebf-41bc-93fd-26429ba52571}">
+		<property name="name">
+			<value>Binaural</value>
+		</property>
+		<property name="value">
+			<value>false</value>
 		</property>
 	</object>
 </objects>

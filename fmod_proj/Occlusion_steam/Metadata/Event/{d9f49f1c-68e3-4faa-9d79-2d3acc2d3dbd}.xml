@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{d9f49f1c-68e3-4faa-9d79-2d3acc2d3dbd}">
 		<property name="name">
-			<value>Reactor</value>
+			<value>Projector</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -304,7 +304,7 @@
 			<value>Interpolation</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
