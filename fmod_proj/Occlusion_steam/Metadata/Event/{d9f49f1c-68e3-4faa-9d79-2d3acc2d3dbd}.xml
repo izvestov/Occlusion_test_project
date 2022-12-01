@@ -101,7 +101,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{803bdec4-7d61-4bb1-99c8-e6d8041a5679}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-10</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -354,7 +354,7 @@
 			<value>DAMaxDist</value>
 		</property>
 		<property name="value">
-			<value>50</value>
+			<value>20</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,10000.000000)}</value>
