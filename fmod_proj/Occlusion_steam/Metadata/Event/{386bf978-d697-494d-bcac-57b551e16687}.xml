@@ -87,6 +87,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3fba08af-44fe-4506-82db-fcff84dfcc85}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{d2fe74b5-63b3-4ab3-af65-151399a8d3af}</destination>
 		</relationship>
@@ -113,7 +116,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f1042dc8-28b7-4e6c-9af5-c660a9ee68c3}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-9.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -153,6 +156,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{83d5d526-37c8-4851-93b7-1e9fd6edda01}">
+		<property name="volume">
+			<value>-8</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
@@ -238,9 +244,6 @@
 	<object class="MixerBusPanner" id="{361fd0ee-ced5-4f31-bd63-ed33b13ea7a5}" />
 	<object class="MixerBusFader" id="{b2602bbb-f6c0-402f-bd5e-64e717a4aea3}" />
 	<object class="PluginEffect" id="{fa2635c4-6621-4ede-9356-246d19f58414}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<relationship name="plugin">
 			<destination>{a3c35e66-6088-49ab-9711-ab525a6b9d29}</destination>
 		</relationship>
@@ -621,7 +624,7 @@
 			<value>ReflMixLevel</value>
 		</property>
 		<property name="value">
-			<value>1.89999998</value>
+			<value>1</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,10.000000)}</value>
