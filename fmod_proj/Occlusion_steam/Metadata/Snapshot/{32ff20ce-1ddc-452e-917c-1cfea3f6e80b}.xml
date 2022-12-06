@@ -19,6 +19,9 @@
 		<relationship name="snapshotMasterTrack">
 			<destination>{7ff256c6-7ce1-4bd9-aefc-bcac018d71c8}</destination>
 		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{b51ee291-2852-47e1-a8f3-0601fe0a21e4}</destination>
+		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{509955dc-17ce-4ff0-ab96-0b810333ad45}">
 		<property name="triggerCooldown">
@@ -31,6 +34,11 @@
 	<object class="MarkerTrack" id="{2b5fb694-66e9-439b-bb29-3971d614da54}" />
 	<object class="Timeline" id="{d050f596-5b7b-4198-97a7-a4d8f1353f07}" />
 	<object class="SnapshotMasterTrack" id="{7ff256c6-7ce1-4bd9-aefc-bcac018d71c8}" />
+	<object class="SnapshotTrack" id="{b51ee291-2852-47e1-a8f3-0601fe0a21e4}">
+		<relationship name="mixerStrip">
+			<destination>{da4187d6-aef6-412b-971a-f1c225b5b312}</destination>
+		</relationship>
+	</object>
 	<object class="ADSRModulator" id="{d5fb0eed-4a91-49b5-8306-307d81fcfd6e}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>snapshotIntensity</value>

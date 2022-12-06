@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a82078fb50fbcb46a7e4402721b1a31, type: 3}
+  m_Name: outpost on desert_Amb_Room_Tone
+  m_EditorClassIdentifier: 
+  data: 0c00000008000c0004000800080000000c00000004000000000000000d00000018b1fac0e5864340b57fab400000803f18b1fac02b00c03fb57fab400000803f18b1fac03d9b4c40b67fcb400000803f18b1fac03100c03fb67fcb400000803f19b1dac0859b3240b57f8b400000803f19b1dac005b85140b67fcb400000803f19b1dac0ec864340b57feb400000803f19b1dac03e00c03fb57feb400000803fe54e8540e4fe2140dbbf35410000803fe54e8540e7fe2140dabf45410000803fe54e85405aa47c40dabf55410000803fe54e85404827c03fdabf55410000803fe54e8540eafe2140dabf65410000803f

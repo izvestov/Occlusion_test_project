@@ -67,7 +67,7 @@
 			<value>level</value>
 		</property>
 		<property name="value">
-			<value>6</value>
+			<value>-7</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{9ec4be52-430b-4111-91ec-bb609f886ef7}</destination>

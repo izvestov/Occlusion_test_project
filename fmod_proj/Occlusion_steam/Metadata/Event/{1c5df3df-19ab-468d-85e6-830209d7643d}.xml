@@ -53,7 +53,7 @@
 			<destination>{65b652ee-0a0e-415a-982c-b7f3792899e0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{a1fd92bf-3028-425a-bf81-e36fe6ec7060}</destination>
+			<destination>{e4f52dc0-985d-4eaf-89c8-3867b5c11c85}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{67badfd7-06e0-49cc-bd54-7c2febd112f5}" />
@@ -505,7 +505,7 @@
 			<value>ReflMixLevel</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>6.5</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,10.000000)}</value>

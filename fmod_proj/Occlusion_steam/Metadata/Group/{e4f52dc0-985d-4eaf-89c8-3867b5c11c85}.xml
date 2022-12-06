@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{e4f52dc0-985d-4eaf-89c8-3867b5c11c85}">
+		<property name="name">
+			<value>Del</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{b8814a22-1882-4f29-8d85-58ea4ac17d14}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{27c5b1e2-c5a9-445b-8554-b18b841173b3}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{56859cc9-f5fc-44a6-88fc-99fba7a5794b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{b8814a22-1882-4f29-8d85-58ea4ac17d14}">
+		<relationship name="effects">
+			<destination>{85a4ddd5-41c5-4f87-aff2-bad145ad655d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{27c5b1e2-c5a9-445b-8554-b18b841173b3}" />
+	<object class="MixerBusFader" id="{85a4ddd5-41c5-4f87-aff2-bad145ad655d}" />
+</objects>

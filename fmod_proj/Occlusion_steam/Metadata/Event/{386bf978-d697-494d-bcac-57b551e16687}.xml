@@ -88,7 +88,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{3fba08af-44fe-4506-82db-fcff84dfcc85}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-6.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{d2fe74b5-63b3-4ab3-af65-151399a8d3af}</destination>
@@ -616,7 +616,7 @@
 			<value>ReflBinaural</value>
 		</property>
 		<property name="value">
-			<value>true</value>
+			<value>false</value>
 		</property>
 	</object>
 	<object class="FloatPluginParameter" id="{92f460c2-6313-4b5b-b164-ebf642e01fc9}">
@@ -643,7 +643,7 @@
 			<value>PathMixLevel</value>
 		</property>
 		<property name="value">
-			<value>4.0999999</value>
+			<value>5</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,10.000000)}</value>
